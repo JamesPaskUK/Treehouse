@@ -1,0 +1,48 @@
+/*
+Theme Name: Lazy Days Coffee House
+Theme URI: http://localhost/coffeehouse
+Author: James Pask
+Author URI: http://www.jamespask.net
+Description: A basic bootstrap theme for the fictional coffee house called Lazy Dayz Coffee Hut
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: coffeehouse
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+/* create a small gap between the admin bar and the top of the site */
+.admin-bar .navbar-fixed-top {
+	margin-top: 30px;
+}
+
+.drinks img,
+.drink-image img {
+	max-width: 100%;
+}
+
+.sidebar {
+	padding-top: 20px;
+}
+
+.home {
+	padding-top: 60px;
+}
+
+/* styles for the header */
+.hero {
+	background: url('header-3-bg.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 50px 0 300px 0;
+	height: auto;
+}
